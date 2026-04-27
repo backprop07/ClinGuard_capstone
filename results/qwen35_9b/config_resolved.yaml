@@ -1,0 +1,35 @@
+model:
+  provider: openai
+  model: Qwen3.5-9B
+  temperature: 0.7
+  max_tokens: 50000
+  timeout_s: 360
+  base_url: http://localhost:8011/v1
+  api_key: null
+  batch_size: 32
+  run_name: qwen3p5-9b-fixed-l1
+  start_fresh: false
+benchmark:
+  seed: 42
+  case_drop_after_l1_fail: true
+  run_one_attack_per_case: true
+  logging:
+    redact_keys:
+    - api_key
+    - authorization
+    save_raw_payloads: true
+  paths:
+    cases: data/curated/generated_medqa_text/cases.jsonl
+    warning_ontology: data/ontologies/warning_ontology.json
+    attack_ontology: data/ontologies/attack_ontology.json
+    images_dir: data/curated/generated_medqa_text/images
+  mcp_server:
+    enabled: true
+    base_url: http://127.0.0.1:8766
+    transport: streamable_http
+    timeout_s: 30
+    mcp_concurrency: 2
+    startup_mode: managed
+    path: /mcp
+    log_level: info
+cases_path: data/curated/generated_medqa_text/cases.jsonl

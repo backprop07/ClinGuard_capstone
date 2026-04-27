@@ -1,0 +1,9 @@
+provider: codex_sdk
+model: gpt-5.4
+max_tokens: 2048
+timeout_s: 180
+workspace_dir: .
+extra_cli_args: []
+batch_size: 8
+run_name: codex-medqa-text-fixed-l1
+start_fresh: false

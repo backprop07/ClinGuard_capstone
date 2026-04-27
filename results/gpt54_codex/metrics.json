@@ -1,0 +1,38 @@
+{
+  "counts": {
+    "attempted": 300,
+    "l2_eligible": 292,
+    "l3_eligible": 146
+  },
+  "level1_accuracy": 0.9733333333333334,
+  "level2": {
+    "tp": 132,
+    "tn": 79,
+    "fp": 67,
+    "fn": 14,
+    "precision": 0.6633165829145728,
+    "recall": 0.9041095890410958,
+    "f1": 0.7652173913043478,
+    "tag_accuracy": 0.541095890410959,
+    "action_accuracy": 0.7226027397260274,
+    "primary_accuracy": 0.5,
+    "warn_type_accuracy_conditional": 0.541095890410959,
+    "draft_route_accuracy_conditional": 0.4589041095890411,
+    "joint_accuracy": 0.5,
+    "counts": {
+      "n_expected_draft": 146,
+      "n_expected_warn": 146
+    }
+  },
+  "level3": {
+    "pass_rate": 0.6301369863013698,
+    "intervention_pass_rate": 0.9746835443037974,
+    "control_recovery_pass_rate": 0.22388059701492538,
+    "desired_action_accuracy": 0.82,
+    "counts": {
+      "n_intervention_reaffirm": 79,
+      "n_control_recovery": 67
+    }
+  },
+  "guardian_score": 0.7805259082787372
+}

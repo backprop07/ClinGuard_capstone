@@ -1,0 +1,124 @@
+{
+  "ontology_version": "mcgb_ontology_v0.1",
+  "namespace": "warning",
+  "tags": [
+    {
+      "tag_id": "W_IMG_MISSED_ABNORMALITY",
+      "title": "Missed Abnormality",
+      "description": "Image supports abnormality denied or omitted.",
+      "synonyms": [
+        "missed lesion",
+        "false negative finding"
+      ]
+    },
+    {
+      "tag_id": "W_IMG_FALSE_ABNORMALITY",
+      "title": "False Abnormality",
+      "description": "Doctor asserts abnormality unsupported by image.",
+      "synonyms": [
+        "false positive imaging claim"
+      ]
+    },
+    {
+      "tag_id": "W_IMG_LATERALITY_MISMATCH",
+      "title": "Laterality Mismatch",
+      "description": "Right-left or unilateral-bilateral mismatch.",
+      "synonyms": [
+        "side mismatch",
+        "laterality error"
+      ]
+    },
+    {
+      "tag_id": "W_IMG_LOCATION_MISMATCH",
+      "title": "Location Mismatch",
+      "description": "Wrong anatomical location relative to image.",
+      "synonyms": [
+        "region mismatch",
+        "anatomic mismatch"
+      ]
+    },
+    {
+      "tag_id": "W_IMG_SEVERITY_MISMATCH",
+      "title": "Severity Mismatch",
+      "description": "Severity or extent inconsistent with evidence.",
+      "synonyms": [
+        "grade mismatch"
+      ]
+    },
+    {
+      "tag_id": "W_IMG_MEASUREMENT_MISMATCH",
+      "title": "Measurement Mismatch",
+      "description": "Size measurement inconsistent with image.",
+      "synonyms": [
+        "size mismatch",
+        "dimension mismatch"
+      ]
+    },
+    {
+      "tag_id": "W_IMG_COUNT_MISMATCH",
+      "title": "Count Mismatch",
+      "description": "Number of findings inconsistent with image.",
+      "synonyms": [
+        "lesion count mismatch"
+      ]
+    },
+    {
+      "tag_id": "W_IMG_TEMPORAL_MISMATCH",
+      "title": "Temporal Mismatch",
+      "description": "Improvement worsening timeline mismatch.",
+      "synonyms": [
+        "trend mismatch",
+        "temporal inconsistency"
+      ]
+    },
+    {
+      "tag_id": "W_IMG_MODALITY_OR_PLANE_MISMATCH",
+      "title": "Modality or Plane Mismatch",
+      "description": "Wrong modality or imaging plane claim.",
+      "synonyms": [
+        "modality mismatch",
+        "plane mismatch"
+      ]
+    },
+    {
+      "tag_id": "W_DX_INCONSISTENT_WITH_IMAGE",
+      "title": "Diagnosis Inconsistent With Image",
+      "description": "High-level diagnosis conflicts with imaging pattern.",
+      "synonyms": [
+        "diagnostic inconsistency"
+      ]
+    },
+    {
+      "tag_id": "W_DX_INCONSISTENT_WITH_PRESENTATION",
+      "title": "Diagnosis Inconsistent With Presentation",
+      "description": "Diagnosis conflicts with clinical presentation.",
+      "synonyms": [
+        "clinical presentation mismatch"
+      ]
+    },
+    {
+      "tag_id": "W_TX_CONTRAINDICATED_BY_FINDINGS",
+      "title": "Treatment Contraindicated",
+      "description": "Treatment unsafe given findings.",
+      "synonyms": [
+        "unsafe treatment"
+      ]
+    },
+    {
+      "tag_id": "W_WORKUP_INSUFFICIENT_FOR_RISK",
+      "title": "Insufficient Workup",
+      "description": "Necessary tests missing for risk level.",
+      "synonyms": [
+        "incomplete workup"
+      ]
+    },
+    {
+      "tag_id": "W_DISPOSITION_INAPPROPRIATE_FOR_RISK",
+      "title": "Disposition Inappropriate",
+      "description": "Admit/discharge decision unsafe for risk.",
+      "synonyms": [
+        "unsafe disposition"
+      ]
+    }
+  ]
+}

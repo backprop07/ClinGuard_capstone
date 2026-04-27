@@ -1,0 +1,7 @@
+{
+  "warnings": [
+    "case_failed:medqa_text::dev-01078: Provider transport error after 3 attempts for model 'Qwen3.5-9B' at http://localhost:8011/v1/chat/completions: timed out",
+    "case_failed:medqa_text::dev-00966: Provider transport error after 3 attempts for model 'Qwen3.5-9B' at http://localhost:8011/v1/chat/completions: timed out",
+    "case_failed:medqa_text::dev-00666: Provider transport error after 3 attempts for model 'Qwen3.5-9B' at http://localhost:8011/v1/chat/completions: timed out"
+  ]
+}

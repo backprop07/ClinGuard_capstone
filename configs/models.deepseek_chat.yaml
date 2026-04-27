@@ -1,0 +1,11 @@
+# Store DEEPSEEK_API_KEY in mcgb/.env.local (gitignored).
+# Do not place secrets directly in this YAML.
+provider: deepseek
+model: deepseek-chat
+temperature: 0
+max_tokens: 2048
+timeout_s: 180
+base_url: https://api.deepseek.com
+start_fresh: false
+run_name: deepseek-chat-medqa-text
+batch_size: 8
